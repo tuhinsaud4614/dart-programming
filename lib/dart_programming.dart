@@ -1,3 +1,5 @@
+import 'package:calculator/calculator.dart' show multiply;
+
 int calculate() {
-  return 6 * 7;
+  return multiply(10, 20);
 }
